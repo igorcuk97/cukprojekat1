@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    transition: bacground 500ms ease-in-out, color 1000ms ease-in-out;
+}
+#sadrzaj{
+    background-color: var(--bg);
+    padding: 6%;
+}
+h1, h4, h6, p, label{
+    color: var(--text);
+}
+a{
+    color: var(--text) !important;
+    text-decoration: none !important;
+}
+header, footer{
+    background-color: var(--bg-nav);
+    padding: 1% 0;
+}
+img {
+    width: 6%;
+}
+.blok-pacijenti{
+    background-color: var(--bg-pac);
+    padding: 1% 0;
+    margin: 3% 0;
+    border-radius: 5%;
+}
+.pacijentListaDiv, .zakazivanjeListaDiv{
+    padding: 1% 0;
+    text-align: left !important;
+    margin-left: 25%;
+}
+.beli-blok{
+    padding: 3% 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Boje */
+
+:root{
+    --boja5: white;  /*boja pozadine*/
+    --boja6: #f7f7ff; /*boja pozadine blok-pacijenti */
+    --boja7: #4bb3fd; /*boja navigacije i futera */
+    --boja8: #343a40; /*boja dugmeta crna*/
+    --boja9: #0d0a0b; /*boja nav i poz*/
+    --boja10: #232021; /*boja pozadine*/
+}
+.svetlo{
+    --bg: var(--boja5);
+    --bg-nav: var(--boja7);
+    --bg-pac: var(--boja6);
+    --text: var(--boja8);
+}
+.tamno{
+    --bg: var(--boja10);
+    --bg-nav: var(--boja9);
+    --bg-pac: var(--boja9);
+    --text: var(--boja6);
+}

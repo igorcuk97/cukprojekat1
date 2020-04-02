@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "ImePrezime":"Pera Perić"
+    },
+    
+    {
+        "id":2,
+        "ImePrezime":"Mika Mikić"
+    },
+    
+    {
+        "id":3,
+        "ImePrezime":"Nikola Nikolin"
+    },
+    {
+        "id":4,
+        "ImePrezime":"Zdravko Zdravković"
+    },
+    {
+        "id":5,
+        "ImePrezime":"Miloš Milošević"
+    },
+    {
+        "id":6,
+        "ImePrezime":"Jovan Jovanović"
+    },
+    {
+        "id":7,
+        "ImePrezime":"Ana Anić"
+    }
+]
