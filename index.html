@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="rs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/cuk.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <title>Igor Ćuk 126/17</title>
+    </head>
+    <body class="svetlo">
+        <header>
+            <div class="container col-lg-12">
+                <div class="row">
+                  <div class="col-lg-4 offset-lg-1">
+                    <a href="index.html" id="logo">
+                        <h1>
+                        <img src="img/doctor.png" alt="Logo hirurgije">
+                        Hirurgija Dr.Ćuk</h1>
+                    </a>
+                  </div>
+                  <div class="col-lg-2 offset-lg-4">
+                    <button type="button" class="btn btn-light" id="sunceBtn">
+                        <svg class="bi bi-sun" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.5 8a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z"/>
+                            <path fill-rule="evenodd" d="M8.202.28a.25.25 0 00-.404 0l-.91 1.255a.25.25 0 01-.334.067L5.232.79a.25.25 0 00-.374.155l-.36 1.508a.25.25 0 01-.282.19l-1.532-.245a.25.25 0 00-.286.286l.244 1.532a.25.25 0 01-.189.282l-1.509.36a.25.25 0 00-.154.374l.812 1.322a.25.25 0 01-.067.333l-1.256.91a.25.25 0 000 .405l1.256.91a.25.25 0 01.067.334L.79 10.768a.25.25 0 00.154.374l1.51.36a.25.25 0 01.188.282l-.244 1.532a.25.25 0 00.286.286l1.532-.244a.25.25 0 01.282.189l.36 1.508a.25.25 0 00.374.155l1.322-.812a.25.25 0 01.333.067l.91 1.256a.25.25 0 00.405 0l.91-1.256a.25.25 0 01.334-.067l1.322.812a.25.25 0 00.374-.155l.36-1.508a.25.25 0 01.282-.19l1.532.245a.25.25 0 00.286-.286l-.244-1.532a.25.25 0 01.189-.282l1.508-.36a.25.25 0 00.155-.374l-.812-1.322a.25.25 0 01.067-.333l1.256-.91a.25.25 0 000-.405l-1.256-.91a.25.25 0 01-.067-.334l.812-1.322a.25.25 0 00-.155-.374l-1.508-.36a.25.25 0 01-.19-.282l.245-1.532a.25.25 0 00-.286-.286l-1.532.244a.25.25 0 01-.282-.189l-.36-1.508a.25.25 0 00-.374-.155l-1.322.812a.25.25 0 01-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11z" clip-rule="evenodd"/>
+                        </svg>
+                    </button>
+                    <button type="button" class="btn btn-dark" id="mesecBtn">
+                        <svg class="bi bi-moon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14.53 10.53a7 7 0 01-9.058-9.058A7.003 7.003 0 008 15a7.002 7.002 0 006.53-4.47z" clip-rule="evenodd"/>
+                        </svg>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </header>
+        <div id="sadrzaj">
+            <div class="container col-lg-12">
+                <div class="row">
+                    <div class="col-lg-3 offset-lg-2 beli-blok">
+                        <h4>Pacijenti</h4>
+                        <div class="blok-pacijenti" id="PacijentDiv">
+                            <!-- ispis pacijenata iz JS-a -->
+                        </div>
+                        <button class="btn btn-primary dugme" id="prenesiBtn">Zakaži pacijente</button>
+                    </div>
+                    <div class="col-lg-3 offset-lg-2 beli-blok">
+                        <h4>Zakazivanje za sutra</h4>
+                        <div class="blok-pacijenti" id="ZakazivanjeDiv">
+                            <!-- ispis pacijenata iz JS-a -->
+                        </div>
+                        <button class="btn btn-primary dugme" id="zakaziBtn">Prenesi pacijente</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 offset-lg-5 beli-blok">
+                        <button class="btn btn-primary dugme" id="stampaBtn">Odštampaj pacijente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-4">
+                        <h6>Student: Igor Ćuk 126/17 |
+                            <a href="https://www.linkedin.com/in/igorcuk97/">LinkedIn</a>
+                            | <a href="https://github.com/igorcuk97">GitHub</a></h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/cuk.js"></script>
+    </body>
+</html>
